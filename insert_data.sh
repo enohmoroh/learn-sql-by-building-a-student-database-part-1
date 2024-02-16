@@ -14,7 +14,7 @@ echo $MAJOR_ID
 if [[ -z $MAJOR_ID ]];
 then
 #insert major
-INSERT_MAJOR_RESULT=$($PSQL "INSERT INTO majors(major) VALUES('$MAJOR')" "SELECT * FROM majors")
+INSERT_MAJOR_RESULT=$($PSQL "INSERT INTO majors(major) VALUES('$MAJOR')")
 echo $INSERT_MAJOR_RESULT
 #get new major_id
 
