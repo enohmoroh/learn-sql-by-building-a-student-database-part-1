@@ -19,6 +19,7 @@ then
 echo Inserted into majors, $MAJOR
 fi
 #get new major_id
+$MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
 
 
 fi
