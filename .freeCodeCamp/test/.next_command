@@ -76,3 +76,4 @@ cat course.csv
 cat courses.csv
 ./insert_data.csv
 ./insert_data.sh
+./insert_data.sh
