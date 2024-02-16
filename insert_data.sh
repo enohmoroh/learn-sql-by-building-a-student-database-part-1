@@ -76,6 +76,7 @@ then
 #set to null
 MAJOR_ID=null
 fi
+echo $MAJOR_ID
 
 
 #insert student
